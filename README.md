@@ -12,8 +12,9 @@ Criar uma página web que leia um array de objetos (data.js) e mostre as informa
 
 1. Linkar o index.js no index.html
 2. Utilizar o objeto data
-3. Criar um map para iteração entre os objetos
-4. Criar um parágrafo com a informação de id e description cada
+3. Criar um map para iteração entre os itens do array
+4. Criar um parágrafo com a informação de Id e Description (vindo do data)
+5. Utilizar conceitos ES6+
 
 ## Adicionais
 
