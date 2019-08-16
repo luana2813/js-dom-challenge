@@ -1,6 +1,6 @@
 # Desafio Javascript utilizando DOM
 
-Criar uma página web que leia um array de objetos (data.js) e mostre as informações em um parágrafo cada. 
+Criar uma página web que leia um array de objetos (data) e mostre as informações em um parágrafo cada. 
 
 ## Regras:
 
