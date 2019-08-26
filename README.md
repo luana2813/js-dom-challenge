@@ -6,7 +6,8 @@ Criar uma página web que leia um array de objetos (data) e mostre as informaç�
 
 1. Fork o repositório
 2. Utilizar o index.html, index.js
-3. Pull request para o repositório, para correção 
+3. Pull request para o repositório, para correção
+4. Utilizar JS puro
 
 ## Desafios:
 
@@ -15,8 +16,11 @@ Criar uma página web que leia um array de objetos (data) e mostre as informaç�
 3. Criar um map para iteração entre os itens do array
 4. Criar um parágrafo com a informação de Id e Description (vindo do data)
 5. Utilizar conceitos ES6+
+6. Tags HTML5
+7. Layout com CSS
 
-## Adicionais
+## Adicionais (Opcional)
 
-1. Layout com css
-2. Responsivo
+1. Responsividade
+2. Criar novos campos com outras informações e mostrar na tela
+3. Editar informações, utilizando input/botões
