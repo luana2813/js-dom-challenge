@@ -32,3 +32,12 @@ const data = [
         description: 'Desenho'
     }
 ]
+
+let show = document.getElementById("text").innerHTML; // salvando o que existe na tag 'div' com id=text na variavel 'show'
+
+let show1 = data.map(element => {
+  return `<div> <h4>${element.id}</h4> 
+  <b>${element.description} </b> </div>`
+});
+
+document.getElementById("text").innerHTML = show1.join('') // trocando conteúdo de show pelo array criado pelo map
