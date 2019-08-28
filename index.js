@@ -32,3 +32,12 @@ const data = [
         description: 'Desenho'
     }
 ]
+
+let show = document.getElementById("app");
+
+let show1 = data.map(element => {
+  return `<p>${element.id} 
+  ${element.description}</p>`
+});
+
+show.innerHTML = show1.join("");
