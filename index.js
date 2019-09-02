@@ -33,11 +33,11 @@ const data = [
     }
 ]
 
-let show = document.getElementById("app");
+let show = document.getElementById("text").innerHTML;
 
 let show1 = data.map(element => {
-  return `<p>${element.id} 
-  ${element.description}</p>`
+  return `<div> <h4>${element.id}</h4> 
+  <b>${element.description} </b> </div>`
 });
 
-show.innerHTML = show1.join("");
+document.getElementById("text").innerHTML = show1.join('')
